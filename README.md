@@ -1,6 +1,5 @@
 # Team-Olympians-FrontEnd-Hotel-Luxuria
 
-# Team-Olympians-FrontEnd-Hotel-Luxuria
 ### Rules for collaboration on this project:
 
 1. Avoid the use of non bootstrap styling as much as possible, unless
@@ -32,7 +31,7 @@
 
 
 
-#### These set of rules are the most important rules of all:
+### These set of rules are the most important rules of all:
 
 12. Always pull in updates from the central repo before pushing to your fork.
 13. Always push to your fork and thoroughly test your code before making pull requests to the central repo.
