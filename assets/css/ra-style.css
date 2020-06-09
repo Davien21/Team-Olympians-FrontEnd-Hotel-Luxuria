@@ -1,5 +1,5 @@
 /* This file contains custom style */
-.custom-bg-image{
+.ra-bg-image{
     position: relative;
     left: 10px;
     top: -65px;
@@ -8,41 +8,41 @@
     background: rgba(11, 13, 35);
     border: 1px solid #000000;
 }
-.custom-bg-image img{
+.ra-bg-image img{
     width: 100%;
     height: 100%;
     opacity: .4;
 }
-.custom-logo-img {
+.ra-logo-img {
     position: absolute;
     left: -5%;
     top: -5%;
     width: 400px;
     height: 400px;
 }
-.custom-logo-img img {
+.ra-logo-img img {
      width: 100%;
      opacity: 1;
 }
 
-.custom-main-nav {
+.ra-main-nav {
     position: absolute;
     right: -3%;
     top: 5%;
     z-index: 100;
 }
-.nav-tabs {
+.ra-nav-tabs {
     border-bottom: none;
 }
-.nav-tabs li:last-child a {
+.ra-nav-tabs li:last-child a {
     border: 2px solid #ddd;
    
   }
-.nav-tabs > li > a {
+.ra-nav-tabs > li > a {
     color: white;
     font-size: 130%;
 }
-.custom-border-left span {
+.ra-border-left span {
     position: absolute;
     left: 20%;
     top: 45%;
@@ -52,27 +52,15 @@
     padding-left: 5px;
     border-left: 3px solid white;
 }
-.glyphicon {
-    position: relative;
-    top: 2px;
-    display: inline-block;
-    font-family: 'Glyphicons Halflings';
-    font-style: normal;
-    font-weight: lighter;
-    line-height: 1;
-  
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
 
-label {
+.ra-label {
     margin: 10px 0;
 }
-button {
+.ra-button-color {
     background-color: orangered;
     color: white;
 }
-.custom--border-bottom {
+.ra-border-bottom {
    border-top: none;
    border-right: none;
    border-left: none;
@@ -80,10 +68,10 @@ button {
    padding: 20px;
 }
 
-a {
+.a {
     color: black;
 }
-.custom-divider-line {
+.ra-divider-line {
     border-bottom: 3px solid black;
     margin-top: 60px;
     margin-bottom: 30px;
@@ -91,26 +79,16 @@ a {
     
 }
 
-img.ce-footer-logo {
-    /* margin-bottom: -40px; */
+.ra-footer-logo {
     margin: -20px  -40px -30px;
 }
-h3 span {
-    padding-top: 10px;
 
-}
-h3 span,
-h1 span {
+.ra-sub-heading span,
+.ra-map-heading span {
     border-top: 5px solid black;
 }
-h1 span {
+.ra-map-heading span {
     color: rgba(11, 13, 35);
     font-size: 200%;
 }
 
-.text-left{
-    float: left;
-}
-.float > p:last-child {
-    float: right;
-}
