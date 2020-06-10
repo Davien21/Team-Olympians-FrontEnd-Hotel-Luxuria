@@ -1,13 +1,10 @@
-html{
-  box-sizing: border-box;
-  font-size: 16px;
-}
+
 
 *,*:after, *:before {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
-body{
+.ay-body{
   background-color:#fff;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -22,7 +19,7 @@ body{
   max-width: 400px;
 }
 .ay-caption h2 {
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
 
 .ay-hours .ay-bold{
@@ -77,18 +74,18 @@ body{
     display: block;
     width: 100vw;
     position: relative;
-    margin-top: 2rem;
+    margin-top: 2em;
   }
 
   .ay-hours {
-    font-size: 0.7rem;
+    font-size: 0.7em;
     width: 30%;
     /* max-height: 150px; */
     margin: 0;
     position: absolute;
-    top: -0.8rem;
-    left: -0.5rem;
-    padding: 0.8rem 0.6rem;
+    top: -0.8em;
+    left: -0.5em;
+    padding: 0.8em 0.6em;
     
   }
   .ay-hours-left, .ay-hours-right {
@@ -99,7 +96,7 @@ body{
 }
 @media screen  and (min-width: 640px) and (max-width: 865px) {
   .ay-hours {
-    font-size: 0.75rem;
+    font-size: 0.75em;
     /* max-height: auto; */
     width: 45%;
   }
@@ -113,7 +110,7 @@ body{
   }
 }
 @media screen and (max-width: 400px) {
-  html {
+  .ay-body {
     font-size: 12px;
   }
 }
