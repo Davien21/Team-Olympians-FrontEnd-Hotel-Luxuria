@@ -27,22 +27,22 @@ body {
 	max-height: 200px;
 	margin-top: -10px;
 }
-
+section.intro {
+	font-size: 0.8em;
+	min-height: 80vh;
+}
 section.intro .intro-text{
 	border-left: 2px solid #fff
-	
 }
 section.intro .white-service-box{
 	color: #000;
 	background-color: #fff;
 	box-shadow: 0 6px 10px -4px rgba(0,0,0,.15);
-
 }
 section.intro .orange-service-box{
 	color: #fff;
 	background-color: #FF450C;
 	box-shadow: 0 6px 10px -4px rgba(0,0,0,.15);
-
 }
 .def-bg-orange {
 	background-color: #FF450C;
@@ -56,7 +56,6 @@ section.intro .orange-service-box{
 	height: 20px;
 	width: 13px;
 	align-self: center;
-
 }
 div.intro-text {
 }
@@ -64,7 +63,6 @@ div.intro-text {
 	text-transform: uppercase;
 	font-size: 0.9em;
 	border-bottom: 2px solid #343A40;
-
 }
 .nav-link:hover {
 	border-bottom: 2px solid #FF450C;
@@ -106,7 +104,6 @@ section.intro footer{
 .white-service-box,.orange-service-box {
 	cursor: pointer;
 	border-bottom: 2px solid #fff;
-
 }
 .white-service-box:hover {
 	border-bottom: 2px solid #FF450C;
@@ -114,8 +111,6 @@ section.intro footer{
 .book-room-li {
 	color: white;
 	border-bottom: transparent;
-
-
 }
 .book-room-li:hover {
 	color: #fff !important;
@@ -127,7 +122,6 @@ section.intro footer{
 	border-bottom: 2px solid #fff;
 }
 @media screen and (min-width:400px) {
-  
 }
 @media screen and (min-width:576px) {
 	section.intro footer{
@@ -142,11 +136,8 @@ section.intro footer{
 	}
 }
 @media screen and (min-width:768px) {
-     
 }
 @media screen and (min-width:992px) {
-
 }   
 @media screen and (min-width:1200px) {
-     
 }

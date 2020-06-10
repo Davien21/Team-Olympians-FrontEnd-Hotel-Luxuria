@@ -1,41 +1,29 @@
 section.home {
-    font-size: 0.8em;
-	min-height: 80vh;
 	background:
 		linear-gradient(rgba(31, 33, 51, 0.4), rgba(11, 13, 35, 0.4)),
 		url('../imgs/bg-1.jpg') center/cover fixed no-repeat;
 }
 section.contact {
-    font-size: 0.8em;
-	min-height: 80vh;
 	background:
 		linear-gradient(rgba(31, 33, 51, 0.4), rgba(11, 13, 35, 0.4)),
 		url('../imgs/bg-1.jpg') center/cover fixed no-repeat;
 }
 section.facilities {
-    font-size: 0.8em;
-	min-height: 80vh;
 	background:
 		linear-gradient(rgba(31, 33, 51, 0.4), rgba(11, 13, 35, 0.4)),
 		url('../imgs/bg-1.jpg') center/cover fixed no-repeat;
 }
 section.booking {
-    font-size: 0.8em;
-	min-height: 80vh;
 	background:
 		linear-gradient(rgba(31, 33, 51, 0.4), rgba(11, 13, 35, 0.4)),
 		url('../imgs/bg-1.jpg') center/cover fixed no-repeat;
 }
 section.covid {
-    font-size: 0.8em;
-	min-height: 80vh;
 	background:
 		linear-gradient(rgba(31, 33, 51, 0.4), rgba(11, 13, 35, 0.4)),
 		url('../imgs/bg-1.jpg') center/cover fixed no-repeat;
 }
 section.rooms {
-    font-size: 0.8em;
-	min-height: 80vh;
 	background:
 		linear-gradient(rgba(31, 33, 51, 0.4), rgba(11, 13, 35, 0.4)),
 		url('../imgs/bg-1.jpg') center/cover fixed no-repeat;
