@@ -11,6 +11,7 @@
     transition: all 300ms ease-in-out;
 }
 body {
+	overflow-x: hidden;
 	-moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
@@ -176,6 +177,9 @@ hr.quarter {
 	border: 2px solid #212529;
 	width: 30%;
 }
+footer.booking-nav-footer {
+
+}
 .left-order-box,.right-order-box {
 	background-color: #ff450b;
 }
@@ -195,7 +199,7 @@ hr.quarter {
 @media screen and (min-width:400px) {
 }
 @media screen and (min-width:576px) {
-	div.intro-content {
+	div.intro-content .intro-text{
 	 	/*margin-left: 100px;*/
 	}
 	.home-main {
@@ -226,10 +230,13 @@ hr.quarter {
 		margin-top: 80px;
 		margin-right: -100px;
 	}
+	footer.booking-nav-footer {
+		margin-bottom:-2rem;
+	}
 	 
 }
 .orange-btn {
-	background-color: #ff450b;
+	background-color: #ff450c;
 	color: #fff;
 }
 @media screen and (min-width:992px) {
