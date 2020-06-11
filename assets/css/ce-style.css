@@ -17,7 +17,7 @@ body {
     font-smoothing: antialiased;
     margin: 0;
     padding: 0;
-    background: #f5f5f5;
+    background: #f5f/*5*/f5;
     min-height: 100vh;
     line-height: 1.75em;
     font-weight: 400;
@@ -29,20 +29,39 @@ body {
 }
 section.intro {
 	font-size: 0.8em;
-	min-height: 80vh;
+	min-height: 100vh;
 }
-section.intro .intro-text{
-	border-left: 2px solid #fff
+
+.intro-text div.row{
+	position: relative;
+	border-left: 3px solid #fff;
+	top: 50px;
+	/*margin-left: 200px;*/
+
 }
-section.intro .white-service-box{
+.intro-text span{
+	font-family: arial;
+	font-weight: bold;
+	font-size: 3em;
+}
+.white-service-box{
 	color: #000;
 	background-color: #fff;
 	box-shadow: 0 6px 10px -4px rgba(0,0,0,.15);
 }
-section.intro .orange-service-box{
+.orange-service-box{
 	color: #fff;
 	background-color: #FF450C;
 	box-shadow: 0 6px 10px -4px rgba(0,0,0,.15);
+}
+.def-text-orange {
+	color:  #FF450C;
+}
+.def-text-links {
+	border-bottom: 1px solid #FF450C;
+}
+.def-text-links:hover {
+	color: #FF450C
 }
 .def-bg-orange {
 	background-color: #FF450C;
@@ -62,10 +81,11 @@ div.intro-text {
 .nav-link {
 	text-transform: uppercase;
 	font-size: 0.9em;
-	border-bottom: 2px solid #343A40;
+	border-bottom: 2px solid transparent;
 }
 .nav-link:hover {
 	border-bottom: 2px solid #FF450C;
+	color: #fff !important;
     transition: all 200ms ease-in-out;
 }
 .emphasis {
@@ -98,8 +118,8 @@ a:focus {
 	z-index: 9999999;
 }
 section.intro footer{
-	position: absolute;
-	bottom: -140px;
+	/*position: relative;*/
+	/*bottom: -20px;*/
 }  
 .white-service-box,.orange-service-box {
 	cursor: pointer;
@@ -109,6 +129,7 @@ section.intro footer{
 	border-bottom: 2px solid #FF450C;
 }
 .book-room-li {
+	border-radius: 5px 5px 0px 0px;
 	color: white;
 	border-bottom: transparent;
 }
@@ -121,23 +142,108 @@ section.intro footer{
 .orange-service-box:hover {
 	border-bottom: 2px solid #fff;
 }
+.home-main {
+	position: relative;
+	top: 3rem;
+}
+.hotel-divs {
+	height: 80vh
+}
+.hotel-divs span.absolute {
+	bottom: 1.5em;
+	left: 2em;
+	color: #fff;
+	line-height: 1.5em;
+	font-weight: bold;
+	font-family: arial;
+}
+.hotel-1-div {
+	background:
+		linear-gradient(rgba(31, 33, 51, 0.4), rgba(11, 13, 35, 0.4)),
+		url('../imgs/hotel-1.jpg') center/cover no-repeat;
+}
+.hotel-2-div {
+	background:
+		linear-gradient(rgba(31, 33, 51, 0.4), rgba(11, 13, 35, 0.4)),
+		url('../imgs/hotel-2.jpg') center/cover no-repeat;
+}
+.hotel-3-div {
+	background:
+		linear-gradient(rgba(31, 33, 51, 0.4), rgba(11, 13, 35, 0.4)),
+		url('../imgs/hotel-3.jpg') center/cover no-repeat;
+}
+hr.quarter {
+	border: 2px solid #212529;
+	width: 30%;
+}
+.left-order-box,.right-order-box {
+	background-color: #ff450b;
+}
+.left-order-box,.right-order-box {
+	background-color: #ff450b;
+	line-height: 1em;
+	font-size: 80%;
+}
+.orange-hr {
+	/*width: 150px;*/
+	border-bottom: 4px solid #ff450b;
+	padding-bottom: 5px;
+	display: inline-block;
+}
+
+/*Media Queries*/
 @media screen and (min-width:400px) {
 }
 @media screen and (min-width:576px) {
+	div.intro-content {
+	 	/*margin-left: 100px;*/
+	}
+	.home-main {
+		/*position: relative;*/
+		/*top: 7rem;*/
+	}
 	section.intro footer{
-		position: absolute;
-		bottom: -2rem;
+		/*position: relative;*/
+		/*bottom: rem;*/
 	}   
-	section.intro .white-service-box{
+	.white-service-box{
 		margin-bottom: -2rem;
 	}
-	section.intro .orange-service-box{
+	.orange-service-box{
 		margin-bottom: -2rem;
 	}
 }
+
 @media screen and (min-width:768px) {
+	.hotel-divs {
+		max-height: 60vh
+	}
+	.right-order-box {
+		margin-top: 80px;
+		margin-left: -100px;
+	}
+	.left-order-box {
+		margin-top: 80px;
+		margin-right: -100px;
+	}
+	 
+}
+.orange-btn {
+	background-color: #ff450b;
+	color: #fff;
 }
 @media screen and (min-width:992px) {
+	div.intro-content {
+	 	/*margin-left: 200px;*/
+	}
+	section .ce-picture-section {
+		padding-left: 100px;
+		padding-right: 100px;
+	}
 }   
 @media screen and (min-width:1200px) {
+	section .ce-picture-section {
+		padding-left: 180px;
+		padding-right: 180px;
+	}
 }

@@ -4,7 +4,7 @@ body {
 #first {
   min-height: 100vh;
   background: linear-gradient(rgba(31, 33, 51, 0.4), rgba(11, 13, 35, 0.4)),
-    url(/assets/imgs/bg-1.jpg) center/cover no-repeat fixed;
+    url(../imgs/bg-1.jpg) center/cover no-repeat fixed;
 }
 
 .aa-btn-luxuria {

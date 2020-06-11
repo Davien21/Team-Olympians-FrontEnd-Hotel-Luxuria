@@ -26,9 +26,13 @@ section.covid {
 section.rooms {
 	background:
 		linear-gradient(rgba(31, 33, 51, 0.4), rgba(11, 13, 35, 0.4)),
-		url('../imgs/bg-1.jpg') center/cover fixed no-repeat;
+		url('../imgs/bg-2.jpg') center/cover fixed no-repeat;
 }
 ul.footer-links a:hover {
+	text-decoration: underline !important;
+	color: #FF450C;
+}
+.def-links:hover {
 	text-decoration: underline !important;
 	color: #FF450C;
 }
@@ -42,4 +46,7 @@ hr.footer-hr {
 }
 .social-svgs {
 	max-width: 20px;
+}
+.home-main {
+
 }
