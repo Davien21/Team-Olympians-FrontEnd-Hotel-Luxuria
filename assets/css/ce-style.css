@@ -28,6 +28,16 @@ body {
 	max-height: 200px;
 	margin-top: -10px;
 }
+.def-big-input {
+	border: 0;
+	border-bottom: 1px solid #0B0D22;
+	max-width: 400px;
+}
+.half-page-logo {
+	max-height: 40vh;
+	margin-top: -2rem;
+	width: auto;
+}
 section.intro {
 	font-size: 0.8em;
 	min-height: 100vh;
@@ -197,10 +207,27 @@ footer.booking-nav-footer {
 section.booking.intro {
 	min-height: 100vh;
 }
+.orange-btn {
+	background-color: #ff450b;
+	color: #fff;
+}
+.booking-defs {
+	background-color: #0B0D22;
+	color: #fff;
+
+}
+.booking-defs-alt {
+	color: #0B0D22;
+	background-color: #fff;
+
+}
+.booking-defs-alt .underline{
+	border-bottom: 1px solid #0B0D22;
+}
 /*Media Queries*/
 @media screen and (min-width:400px) {
 }
-@media screen and (min-width:576px) {
+@media screen and (min-height: width:576px) {
 	div.intro-content .intro-text{
 	 	/*margin-left: 100px;*/
 	}
@@ -224,6 +251,11 @@ section.booking.intro {
 	section.booking.intro {
 		min-height: 85vh;
 	}
+	.half-page-logo {
+		margin-top: -100px;
+		max-height: 60vh;
+		/*width: auto;*/
+	}
 	.hotel-divs {
 		max-height: 60vh
 	}
@@ -239,10 +271,6 @@ section.booking.intro {
 		margin-bottom:-2rem;
 	}
 	 
-}
-.orange-btn {
-	background-color: #ff450c;
-	color: #fff;
 }
 @media screen and (min-width:992px) {
 	div.intro-content {
