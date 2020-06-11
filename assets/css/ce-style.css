@@ -194,7 +194,9 @@ footer.booking-nav-footer {
 	padding-bottom: 5px;
 	display: inline-block;
 }
-
+section.booking.intro {
+	min-height: 100vh;
+}
 /*Media Queries*/
 @media screen and (min-width:400px) {
 }
@@ -219,6 +221,9 @@ footer.booking-nav-footer {
 }
 
 @media screen and (min-width:768px) {
+	section.booking.intro {
+		min-height: 85vh;
+	}
 	.hotel-divs {
 		max-height: 60vh
 	}
